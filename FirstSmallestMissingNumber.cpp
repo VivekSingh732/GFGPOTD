@@ -19,15 +19,3 @@ public:
      return n+1;
     }
 };
-int main(){
-    int n;
-    Solution s1;
-    cout<<"Enter The size of Array"<<endl;
-    cin>>n;
-    int arr[n];
-    for(int i=0;i<n;i++){
-        cin>>arr[i];
-    }
-    int missingNO=s1.firstMissingPositive(*arr);
-    cout<<missingNO<<endl;
-}
